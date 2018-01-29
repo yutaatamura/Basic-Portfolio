@@ -1,6 +1,6 @@
 body {
     width: 960px;
-    height: 500px;
+    height: 600px;
     margin-left: 10%;
     margin-right: 10%;
     background-image: url("../images/spiration-light.png")
@@ -72,7 +72,7 @@ li {
 
 .content {
     width: 960px;
-    height: 500px;
+    height: 600px;
     margin-top:120px;
 }
 
@@ -84,6 +84,17 @@ li {
 
 hr {
     margin-bottom: 20px;
+}
+
+.portfolio {
+    float: left;
+    width: 590px;
+    border: 1px solid #dddddd;
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 25px;
+    margin-right: 10px;
+    background-color:#ffffff; 
 }
 
 .aboutMe {
@@ -100,6 +111,11 @@ hr {
 #aboutMeHeader {
     font-size: 28px;
 }
+
+#portfolioHeader {
+    font-size: 28px;
+}
+
 
 .sideBar {
     float: right;
@@ -140,5 +156,19 @@ footer {
     left: 0;
 }
 
+.projects {
+    position: relative;
+    float: left;
+}
 
-
+.projectLabel {
+    position: absolute;
+    top: 100px; 
+    left: 0px;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+    color: #ffffff;
+    background-color:#4aaaa5; 
+    line-height: 45px;   
+}
