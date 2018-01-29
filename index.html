@@ -9,32 +9,48 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
     
 </head>
+
 <body>
     <header>
         <nav>
-            <ul>
-                <li id="logo">Yuta Tamura</li>
-                <li>Contact</li>
-                <li>Portfolio</li>
-                <li>About</li>
+            <div id="logo"><h1 class="name headingFonts">Yuta Tamura</h1></div> 
+            <ul class="otherFonts">     
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>       
             </ul>        
         </nav>
     </header>
 
     <div class="content">
         <div class="aboutMe">
-            <h1>About Me</h1>
+            <h1 id="aboutMeHeader" class="headingFonts">About Me</h1>
             <br>
-            <img class="profilePic" src="#"/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <hr>
+            <a href="https://placeholder.com"><img class="profilePic" src="http://via.placeholder.com/250x250"></a>
+            <!--<img class="profilePic" src="#"/> -->
+            <p class="otherFonts">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <br>
+            <p class="otherFonts">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
         </div>
 
         <div class="sideBar">
-            <h2>Connect with Me</h2>
+            <h2 id="connectWithMeHeader" class="headingsFonts">Connect with Me</h2>
             <br>
+            <hr>
+                <div class="iconContainer">
+                    <img id="githubIcon" src="./assets/images/if_github.png" />
+                    <img id="linkedinIcon" src="./assets/images/if_linkedin.png" />
+                    <img id="overflowIcon" src="./assets/images/if_overflow.png" />
+                </div>
         </div>
     </div>
 
+    <footer>
+        <h3>Copyright 2018 Yuta Tamura</h3>
+
+
+    </footer>
 </body>
 </html>
