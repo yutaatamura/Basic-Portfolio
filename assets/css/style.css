@@ -108,11 +108,27 @@ hr {
     background-color:#ffffff; 
 }
 
+.contact {
+    float: left;
+    width: 590px;
+    border: 1px solid #dddddd;
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 25px;
+    margin-right: 10px;
+    background-color:#ffffff; 
+}
+
 #aboutMeHeader {
     font-size: 28px;
 }
 
 #portfolioHeader {
+    font-size: 28px;
+}
+
+
+#contactHeader {
     font-size: 28px;
 }
 
@@ -171,4 +187,31 @@ footer {
     color: #ffffff;
     background-color:#4aaaa5; 
     line-height: 45px;   
+}
+
+input {
+    width: 450px;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 450px;
+    height: 200px;
+    margin-top:10px;
+}
+
+#submitButton {
+    width: 100px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+
+.copyright {
+    font-size: 10px;
+    color: #ffffff;
+    line-height: 90px;
 }
