@@ -2,13 +2,8 @@ body {
     width: 960px;
     margin-left: 10%;
     margin-right: 10%;
-    background-image: url("../images/spiration-light.png")
-}
-
-.wrap {
-    margin-bottom: 60px;
-    min-height: 100%;
-    
+    margin-bottom: 90px; /*margin bottom equal to the height of footer + 30px for extra spacing at bottom*/
+    background-image: url("../images/spiration-light.png");
 }
 
 nav ul li {
@@ -86,9 +81,9 @@ li {
 
 .content {
     width: 960px;
-    height: 600px;
     margin-top:120px;
     min-height: 100%;
+    overflow: auto; /*Important to have overflow here in order for the container to grow with content; important for implementing the sticky footer */
 }
 
 .profilePic {
@@ -121,6 +116,7 @@ hr {
     padding: 25px;
     margin-right: 10px;
     background-color:#ffffff; 
+    min-height: 100%;
 }
 
 .contact {
@@ -167,14 +163,26 @@ hr {
     height: 50px;
 }
 
+#githubIcon:hover {
+    box-shadow: 3px 3px 5px rgb(147, 147, 147);
+}
+
 #linkedinIcon {
     width: 50px;
     height: 50px;
 }
 
+#linkedinIcon:hover {
+    box-shadow: 3px 3px 5px rgb(147, 147, 147);
+}
+
 #overflowIcon {
     width: 50px;
     height: 50px;
+}
+
+#overflowIcon:hover {
+    box-shadow: 3px 3px 5px rgb(147, 147, 147);
 }
 
 footer {
@@ -224,6 +232,13 @@ textarea {
     text-align: center;
     text-decoration: none;
     border: none;
+}
+
+#submitButton:hover {
+    color: rgb(192, 12, 21);
+    transition: color 0.3s;
+    outline: 3px solid rgb(147, 147, 147);
+    box-shadow: 5px 5px 5px rgb(147, 147, 147);
 }
 
 .copyright {
